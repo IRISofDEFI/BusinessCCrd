@@ -1,0 +1,44 @@
+/* Page styles */
+body {
+    background-color: rosybrown;
+    /* ✅ rosybrown background */
+    font-family: Arial, sans-serif;
+    /* ✅ Arial with fallback */
+}
+
+/* Paragraph spacing */
+p {
+    margin: 5px 0;
+    /* ✅ top and bottom margin of 5px */
+}
+
+/* Links styling */
+a {
+    text-decoration: none;
+    /* ✅ no underline */
+}
+
+/* Business card container */
+.business-card {
+    width: 300px;
+    /* ✅ fixed width */
+    background-color: #fff;
+    /* ✅ choose any background */
+    padding: 20px;
+    /* ✅ padding all around */
+    margin: 100px auto 0 auto;
+    /* ✅ top 100px, centered left/right */
+    text-align: center;
+    /* ✅ center text */
+    font-size: 16px;
+    /* ✅ font size */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image */
+.profile-image {
+    max-width: 100%;
+    /* ✅ scale image */
+    border-radius: 50%;
+}
